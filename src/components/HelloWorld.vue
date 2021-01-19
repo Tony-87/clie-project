@@ -31,7 +31,9 @@
 </template>
 
 <script>
+import aMixin from '../mixins/testMixin'
 export default {
+  mixins: [aMixin],
   name: 'HelloWorld',
   props: {
     msg: String
