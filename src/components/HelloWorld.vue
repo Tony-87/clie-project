@@ -1,5 +1,14 @@
 <template>
   <div class="hello">
+
+     <h2 style="font-size:5px;">测试字段大小5 </h2>
+     <h2 style="font-size:6px;">测试字段大小6 </h2>
+     <h2 style="font-size:7px;">测试字段大小7 </h2>
+     <h2 style="font-size:8px;">测试字段大小8 </h2>
+     <h2 style="font-size:9px;">测试字段大小9 </h2>
+     <h2 style="font-size:10px;">测试字段大小10 </h2>
+     <h2 style="font-size:11px;">测试字段大小11 </h2>
+     <h2 style="font-size:12px;">测试字段大小12 </h2>
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
