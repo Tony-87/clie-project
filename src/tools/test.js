@@ -1,5 +1,5 @@
 
-console.log('test');
+console.log('test')
 
 //  app (1.03 MiB)  ElementUI
 //  File                                   Size              Gzipped
@@ -9,7 +9,6 @@ console.log('test');
 //  dist/css/chunk-vendors.81da9e9e.css    227.85 KiB        34.58 KiB
 //  dist/css/app.27be17df.css              0.42 KiB          0.26 KiB
 
-
 //  app (2.57 MiB)  ElementUI,sdk
 //  File                                   Size              Gzipped
 //  dist/js/app.b23a0a96.js                1546.79 KiB       378.69 KiB
@@ -18,10 +17,18 @@ console.log('test');
 //  dist/css/chunk-vendors.81da9e9e.css    227.85 KiB        34.58 KiB
 //  dist/css/app.27be17df.css              0.42 KiB          0.26 KiB
 
-
 //  空项目
 //  File                                 Size               Gzipped
 //  dist/js/chunk-vendors.d95df49f.js    124.18 KiB         42.85 KiB
 //  dist/js/app.e250aa1b.js              6.19 KiB           2.36 KiB
 //  dist/js/about.09c8d6c3.js            0.78 KiB           0.32 KiB
 //  dist/css/app.27be17df.css            0.42 KiB           0.26 KiB
+
+// File                                     Size             Gzipped
+
+// dist/js/chunk-rtcsdk.8eb88b66.js         1540.64 KiB      376.48 KiB
+// dist/js/chunk-elementUI.7d7414e8.js      652.25 KiB       159.45 KiB
+// dist/js/app.84a4c68f.js                  210.61 KiB       72.21 KiB
+// dist/js/about.ebfc64e9.js                0.78 KiB         0.32 KiB
+// dist/css/chunk-elementUI.81da9e9e.css    227.85 KiB       34.58 KiB
+// dist/css/app.27be17df.css                0.42 KiB         0.26 KiB
