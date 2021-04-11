@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = {},
+        b = '0',
+        c = 0; 
+        a[b] = 'a'
+        a[c] = 'b'
+        console.log(a[b]);
+
+        {
+            let a = {},
+        b = Symbol('1'),
+        c = Symbol('1'); 
+        a[b] = 'a'
+        a[c] = 'b'
+        console.log(a[b],a);
+        }
+
+        {
+            let a = {},
+        b = {n:'1'},
+        c = {m:'2'}; 
+        a[b] = 'a'
+        a[c] = 'b'
+        console.log(a[b],a);
+        }
+
+        {
+            var test = (function(i){
+                return function(){
+                    console.log(i*=2)
+                }
+            })(2)
+            test(5)
+            test(5)
+            test(5)
+        }
+    </script>
+</body>
+</html>
