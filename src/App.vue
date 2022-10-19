@@ -7,7 +7,13 @@
     <router-view/>
   </div>
 </template>
+<script>
+// import {ARPano} from './tools/ARPano'
+const ARPano = require('./tools/ARPano');
 
+console.log('ARPano',ARPano);
+console.log('ARPano',ARPano.ARPano);
+</script>
 <style lang="less">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
